@@ -42,7 +42,7 @@ sections:
       title: "My Journey"
       subtitle: ""
       text: |-
-        I am broadly interested in understanding the human mind and behavior throug quantitative methods, which initially led me to study language acquisition during my undergraduate years. My [honors thesis](https://scholarworks.smith.edu/theses/2374/) examined how children learn rules in an artificial language.
+        I am broadly interested in understanding the human mind and behavior through quantitative methods, which initially led me to study language acquisition during my undergraduate years. My [honors thesis](https://scholarworks.smith.edu/theses/2374/) examined how children learn rules in an artificial language.
 
         Through this work, I developed an interest in statistics and working with children, which motivated me to pursue a master’s degree in Education Data Science. During my graduate training, I focused on psychometrics, and my [capstone project](https://ed.stanford.edu/eds/project/modeling-student-growth-over-time-in-algebra-i-from-a-digital-learning-environment) analyzed item-level response data from a digital learning platform to model students’ learning trajectories over time within an Algebra I curriculum.
 
