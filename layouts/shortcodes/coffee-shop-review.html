@@ -1,0 +1,10 @@
+{{ $id := .Get "id" }} {{ $name := .Get "name" }}
+
+<section id="{{ $id }}" class="coffee-review">
+  <h4>{{ $name }}</h4>
+  {{ .Inner }}
+
+  <div class="back-to-map">
+    <a href="#coffee_shop_map_madison">↑ Back to map</a>
+  </div>
+</section>
