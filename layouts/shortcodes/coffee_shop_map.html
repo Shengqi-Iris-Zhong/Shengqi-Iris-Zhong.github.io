@@ -1,0 +1,62 @@
+{{ $city := .Get "city" }} {{ $file := printf "%s/map-pins.yml" .Page.File.Dir
+}} {{ $yaml := readFile $file }} {{ $data := transform.Unmarshal $yaml }} {{
+$mapID := printf "coffee_shop_map_%s" $city }}
+
+<script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
+
+<div id="{{ $mapID }}" class="coffee-map"></div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const shops = [
+      {{ range $data.shops }}
+      {
+        id: "{{ .id }}",
+        name: "{{ .name }}",
+        lat: {{ .lat }},
+        lon: {{ .lng }},
+        visited: {{ .visited }}
+      },
+      {{ end }}
+    ];
+
+    const trace = {
+      type: "scattermapbox",
+      lat: shops.map(s => s.lat),
+      lon: shops.map(s => s.lon),
+      mode: "markers",
+      marker: {
+        size: 12,
+        color: shops.map(s => s.visited ? "#6F4E37" : "#c5b6a7") // <-- set color based on visited
+      },
+      text: shops.map(s => `<b>${s.name}</b>`),
+      hoverinfo: "text",
+      customdata: shops.map(s => s.id)
+    };
+
+    const layout = {
+      mapbox: {
+        style: "open-street-map",
+        center: {
+          lat: {{ $data.center.lat }},
+          lon: {{ $data.center.lng }}
+        },
+        zoom: {{ $data.center.zoom }}
+      },
+      margin: { t: 0, b: 0, l: 0, r: 0 }
+    };
+
+    Plotly.newPlot("{{ $mapID }}", [trace], layout, { responsive: true });
+
+    document
+      .getElementById("{{ $mapID }}")
+      .on("plotly_click", function (event) {
+        const shopID = event.points[0].customdata;
+        const target = document.getElementById(shopID);
+
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+  });
+</script>

@@ -1,0 +1,601 @@
+# center:
+#   lat: 37.7749
+#   lng: -122.4194
+#   zoom: 12
+
+# shops:
+#   - id: blue-bottle
+#     name: Blue Bottle Coffee
+#     lat: 37.7764
+#     lng: -122.4231
+#     neighborhood: SOMA
+#     rating: 4.2
+
+#   - id: ritual-coffee
+#     name: Ritual Coffee Roasters
+#     lat: 37.7526
+#     lng: -122.4206
+#     neighborhood: Mission
+#     rating: 4.5
+
+center:
+  lat: 43.0745704
+  lng: -89.3854198
+  zoom: 11
+
+shops:
+  - id: crescendo
+    name: Crescendo Espresso Bar
+    lat: 43.0729574
+    lng: -89.4544896
+    visited: true
+
+  - id: starbucks-2
+    name: Starbucks - 2
+    lat: 43.0747861
+    lng: -89.4475044
+    visited: true
+
+  - id: barriques-university
+    name: Barriques - University
+    lat: 43.071946
+    lng: -89.428803
+    visited: true
+
+  - id: "aldos_cafe"
+    name: "Aldo's Cafe"
+    lat: 43.0731655
+    lng: -89.4075991
+    visited: false
+
+  - id: "ancora_1"
+    name: "Ancora-1"
+    lat: 43.0829086
+    lng: -89.3244234
+    visited: false
+
+  - id: "ancora_2"
+    name: "Ancora-2"
+    lat: 43.1077145
+    lng: -89.3630360
+    visited: false
+
+  - id: "ancora_bakery"
+    name: "Ancora-3"
+    lat: 43.0755769
+    lng: -89.4433553
+    visited: false
+
+  - id: "barriques_1"
+    name: "Barriques-1"
+    lat: 43.0149675
+    lng: -89.4576088
+    visited: false
+
+  - id: "barriques_2"
+    name: "Barriques-2"
+    lat: 43.0753208
+    lng: -89.5282658
+    visited: false
+
+  - id: "barriques_3"
+    name: "Barriques-3"
+    lat: 43.0649366
+    lng: -89.4165977
+    visited: true
+
+  - id: "barriques_coffee_trader"
+    name: "Barriques-4"
+    lat: 43.0732274
+    lng: -89.3858729
+    visited: true
+
+  - id: "black_locust_cafe"
+    name: "Black Locust Cafe"
+    lat: 43.0817350
+    lng: -89.3737061
+    visited: true
+
+  - id: "bradburys_coffee"
+    name: "Bradbury's Coffee"
+    lat: 43.0773530
+    lng: -89.3839609
+    visited: true
+
+  - id: "broken_board_coffee"
+    name: "Broken Board Coffee"
+    lat: 43.1296061
+    lng: -89.2950846
+    visited: false
+
+  - id: "cafe_domestique_1"
+    name: "Cafe Domestique-1"
+    lat: 43.0860412
+    lng: -89.3606142
+    visited: false
+
+  - id: "cafe_domestique_2"
+    name: "Cafe Domestique-2"
+    lat: 43.1066070
+    lng: -89.3510790
+    visited: false
+
+  - id: "cafe_domestique_west"
+    name: "Cafe Domestique-West"
+    lat: 43.0682616
+    lng: -89.4236441
+    visited: false
+
+  - id: "capital_cafe"
+    name: "Capital Cafe"
+    lat: 43.0723125
+    lng: -89.4010003
+    visited: false
+
+  - id: "cargo_coffee_1"
+    name: "Cargo Coffee-1"
+    lat: 43.0809121
+    lng: -89.3758335
+    visited: false
+
+  - id: "cargo_coffee_2"
+    name: "Cargo Coffee-2"
+    lat: 43.0522842
+    lng: -89.3946397
+    visited: false
+
+  - id: "caribou_coffee"
+    name: "Caribou Coffee"
+    lat: 43.0482951
+    lng: -89.3234517
+    visited: false
+
+  - id: "colectivo_1"
+    name: "Colectivo-1"
+    lat: 43.0746678
+    lng: -89.3955895
+    visited: false
+
+  - id: "colectivo_2"
+    name: "Colectivo-2"
+    lat: 43.0748529
+    lng: -89.3819099
+    visited: true
+
+  - id: "colectivo_3"
+    name: "Colectivo-3"
+    lat: 43.0580060
+    lng: -89.4279950
+    visited: false
+
+  - id: "cottage_cafe"
+    name: "Cottage Cafe"
+    lat: 43.0852443
+    lng: -89.3066263
+    visited: false
+
+  - id: "crema_cafe"
+    name: "Crema Cafe"
+    lat: 43.0786263
+    lng: -89.3241281
+    visited: false
+
+  - id: "el_sabor_de_puebla"
+    name: "El Sabor de Puebla"
+    lat: 43.0984978
+    lng: -89.3572209
+    visited: false
+
+  - id: "ellipse_coffee"
+    name: "Ellipse Coffee & Crepes"
+    lat: 43.0750041
+    lng: -89.3922685
+    visited: false
+
+  - id: "evp_coffee_1"
+    name: "EVP Coffee-1"
+    lat: 43.0541256
+    lng: -89.4508056
+    visited: false
+
+  - id: "evp_coffee_2"
+    name: "EVP Coffee-2"
+    lat: 43.0761375
+    lng: -89.4691674
+    visited: true
+
+  - id: "evp_coffee_3"
+    name: "EVP Coffee-3"
+    lat: 43.0873127
+    lng: -89.3667656
+    visited: false
+
+  - id: "evp_coffee_university"
+    name: "EVP Coffee-4"
+    lat: 43.0743846
+    lng: -89.4339665
+    visited: false
+
+  - id: "fair_trade_coffeehouse"
+    name: "Fair Trade Coffeehouse"
+    lat: 43.0750228
+    lng: -89.3920724
+    visited: false
+
+  - id: "finca_coffee"
+    name: "Finca Coffee"
+    lat: 43.0353947
+    lng: -89.3804540
+    visited: false
+
+  - id: "forward_coffee"
+    name: "Forward Coffee & Craft"
+    lat: 43.0932732
+    lng: -89.3498830
+    visited: false
+
+  - id: "glorious_beans"
+    name: "Glorious Beans"
+    lat: 43.0584921
+    lng: -89.5053889
+    visited: false
+
+  - id: "grace_coffee_1"
+    name: "Grace Coffee-1"
+    lat: 43.0958451
+    lng: -89.5117464
+    visited: false
+
+  - id: "grace_coffee_2"
+    name: "Grace Coffee-2"
+    lat: 43.0953554
+    lng: -89.5117879
+    visited: false
+
+  - id: "grace_coffee_3"
+    name: "Grace Coffee-3"
+    lat: 43.0564313
+    lng: -89.3987520
+    visited: false
+
+  - id: "grace_coffee_co_1"
+    name: "Grace Coffee-4"
+    lat: 43.0863661
+    lng: -89.3680877
+    visited: false
+
+  - id: "grace_coffee_co_2"
+    name: "Grace Coffee-5"
+    lat: 43.1655334
+    lng: -89.2713387
+    visited: false
+
+  - id: "indie_coffee"
+    name: "Indie Coffee"
+    lat: 43.0675561
+    lng: -89.4065517
+    visited: true
+
+  - id: "jabber_java"
+    name: "Jabber Java"
+    lat: 42.9991497
+    lng: -89.5615856
+    visited: false
+
+  - id: "java_cat"
+    name: "Java Cat"
+    lat: 43.1206957
+    lng: -89.3101319
+    visited: false
+
+  - id: "java_den"
+    name: "Java Den"
+    lat: 43.0723321
+    lng: -89.4038985
+    visited: false
+
+  - id: "jinji_qipashi"
+    name: "Jinji Qipashi"
+    lat: 43.0750496
+    lng: -89.3933560
+    visited: false
+
+  - id: "johnson_public_house"
+    name: "Johnson Public House"
+    lat: 43.0847285
+    lng: -89.3761387
+    visited: false
+
+  - id: "lakeside_street_coffee"
+    name: "Lakeside Street Coffee House"
+    lat: 43.0561880
+    lng: -89.3889896
+    visited: false
+
+  - id: "lazy_janes_cafe"
+    name: "Lazy Jane's Cafe and Bakery"
+    lat: 43.0853616
+    lng: -89.3617110
+    visited: false
+
+  - id: "ledger_coffee_roasters"
+    name: "Ledger Coffee Roasters"
+    lat: 43.0946774
+    lng: -89.3343709
+    visited: false
+
+  - id: "leopolds"
+    name: "Leopold's"
+    lat: 43.0673995
+    lng: -89.4077270
+    visited: true
+
+  - id: "madison_chocolate_1"
+    name: "Madison Chocolate Company-1"
+    lat: 43.0530501
+    lng: -89.4353236
+    visited: false
+
+  - id: "madison_chocolate_2"
+    name: "Madison Chocolate Company-2"
+    lat: 43.0497097
+    lng: -89.4747899
+    visited: true
+
+  - id: "mcfarland_house"
+    name: "McFarland House"
+    lat: 43.0131538
+    lng: -89.2889914
+    visited: false
+
+  - id: "mercies"
+    name: "Mercies"
+    lat: 43.1230170
+    lng: -89.3088511
+    visited: false
+
+  - id: "michelangelos_coffee"
+    name: "Michelangelo’s Coffee House"
+    lat: 43.0748592
+    lng: -89.3872117
+    visited: true
+
+  - id: "moka_1"
+    name: "Moka-1"
+    lat: 43.1036810
+    lng: -89.3439460
+    visited: false
+
+  - id: "moka_2"
+    name: "Moka-2"
+    lat: 43.0779348
+    lng: -89.4706186
+    visited: true
+
+  - id: "moka_3"
+    name: "Moka-3"
+    lat: 43.1259014
+    lng: -89.3103454
+    visited: false
+
+  - id: "moka_4"
+    name: "Moka-4"
+    lat: 43.0609259
+    lng: -89.5105374
+    visited: false
+
+  - id: "moka_5"
+    name: "Moka-5"
+    lat: 43.0747968
+    lng: -89.3980206
+    visited: false
+
+  - id: "moka_6"
+    name: "Moka-6"
+    lat: 43.1136771
+    lng: -89.5143413
+    visited: false
+
+  - id: "mother_fools"
+    name: "Mother Fool's"
+    lat: 43.0819904
+    lng: -89.3658896
+    visited: true
+
+  - id: "nano_sweet_cafe"
+    name: "Nano Sweet Cafe"
+    lat: 43.0613602
+    lng: -89.4961992
+    visited: true
+
+  - id: "new_here_coffee"
+    name: "New Here Coffee"
+    lat: 43.0743361
+    lng: -89.3921020
+    visited: false
+
+  - id: "novanta"
+    name: "Novanta"
+    lat: 43.0752907
+    lng: -89.5294745
+    visited: false
+
+  - id: "oasis_cafe"
+    name: "Oasis Cafe"
+    lat: 43.0007345
+    lng: -89.4251438
+    visited: false
+
+  - id: "peets_coffee"
+    name: "Peet's Coffee"
+    lat: 43.0761945
+    lng: -89.3992281
+    visited: false
+
+  - id: "poindexter_coffee"
+    name: "Poindexter Coffee"
+    lat: 43.0755477
+    lng: -89.3956365
+    visited: false
+
+  - id: "prairie_fire"
+    name: "Prairie Fire"
+    lat: 43.0719557
+    lng: -89.4079064
+    visited: false
+
+  - id: "rotunda_cafe"
+    name: "Rotunda Cafe"
+    lat: 43.0918346
+    lng: -89.3555582
+    visited: false
+
+  - id: "starbucks_1"
+    name: "Starbucks-1"
+    lat: 43.0739037
+    lng: -89.3827265
+    visited: true
+
+  - id: "starbucks_3"
+    name: "Starbucks-3"
+    lat: 43.0588560
+    lng: -89.5021360
+    visited: false
+
+  - id: "starbucks_4"
+    name: "Starbucks-4"
+    lat: 43.0905709
+    lng: -89.5242142
+    visited: false
+
+  - id: "starbucks_5"
+    name: "Starbucks-5"
+    lat: 43.0472294
+    lng: -89.3239876
+    visited: false
+
+  - id: "starbucks_6"
+    name: "Starbucks-6"
+    lat: 43.1034989
+    lng: -89.4867402
+    visited: true
+
+  - id: "starbucks_7"
+    name: "Starbucks-7"
+    lat: 43.0160603
+    lng: -89.4292085
+    visited: false
+
+  - id: "starbucks_8"
+    name: "Starbucks-8"
+    lat: 43.0749756
+    lng: -89.4539486
+    visited: true
+
+  - id: "starbucks_9"
+    name: "Starbucks-9"
+    lat: 43.1664888
+    lng: -89.2695870
+    visited: false
+
+  - id: "starbucks_10"
+    name: "Starbucks-10"
+    lat: 43.1257854
+    lng: -89.3124473
+    visited: false
+
+  - id: "starbucks_11"
+    name: "Starbucks-11"
+    lat: 43.0310737
+    lng: -89.4099207
+    visited: false
+
+  - id: "starbucks_12"
+    name: "Starbucks-12"
+    lat: 43.0136649
+    lng: -89.4828486
+    visited: false
+
+  - id: "steep_and_brew"
+    name: "Steep and Brew"
+    lat: 43.0562537
+    lng: -89.4947061
+    visited: true
+
+  - id: "taco_madre"
+    name: "Taco Madre"
+    lat: 43.0936733
+    lng: -89.3425903
+    visited: false
+
+  - id: "tati_co"
+    name: "Tati Co"
+    lat: 43.0112423
+    lng: -89.3724918
+    visited: false
+
+  - id: "the_cafe"
+    name: "The Cafe"
+    lat: 43.0792159
+    lng: -89.3895851
+    visited: false
+
+  - id: "the_victory"
+    name: "The Victory"
+    lat: 43.0940415
+    lng: -89.3444199
+    visited: false
+
+  - id: "tnts_coffee_cafe"
+    name: "TnT's coffee & cafe"
+    lat: 43.0758753
+    lng: -89.5174980
+    visited: false
+
+  - id: "true_coffee_roasters"
+    name: "True Coffee Roasters"
+    lat: 43.0478304
+    lng: -89.3376683
+    visited: false
+
+  - id: "twisted_grounds"
+    name: "Twisted Grounds"
+    lat: 43.0849472
+    lng: -89.2786331
+    visited: false
+
+  - id: "ugly_apple"
+    name: "Ugly Apple"
+    lat: 43.0723616
+    lng: -89.3821473
+    visited: false
+
+  - id: "valentia_coffee"
+    name: "Valentia Coffee"
+    lat: 43.0730129
+    lng: -89.3988887
+    visited: false
+
+  - id: "wake_n_bakery"
+    name: "Wake n Bakery"
+    lat: 43.0746936
+    lng: -89.3944026
+    visited: false
+
+  - id: "wonderstate_coffee"
+    name: "Wonderstate Coffee"
+    lat: 43.0730306
+    lng: -89.3839466
+    visited: true
+
+  - id: "yolas_cafe"
+    name: "Yola's Cafe"
+    lat: 43.0553968
+    lng: -89.5231843
+    visited: true
+
+  - id: "zuzu_cafe"
+    name: "Zuzu Cafe"
+    lat: 43.0623684
+    lng: -89.4087579
+    visited: false
